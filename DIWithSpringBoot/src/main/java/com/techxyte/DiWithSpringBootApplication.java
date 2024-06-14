@@ -14,6 +14,7 @@ public class DiWithSpringBootApplication {
 		ApplicationContext context=SpringApplication.run(DiWithSpringBootApplication.class, args);
 		
 		 Student a=context.getBean(Student.class); 
+		System.out.println("I am");
 		
 		     a.show1(); 
 		
