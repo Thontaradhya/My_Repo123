@@ -8,6 +8,9 @@ class DiWithSpringBootApplicationTests {
 
 	@Test
 	void contextLoads() {
+
+		System.out.println("Hi");
+		assertEquals("aradhya",result);
 	}
 
 }
